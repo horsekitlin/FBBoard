@@ -6,7 +6,7 @@ Fans page URL: [粉絲團](https://www.facebook.com/MovieFrank/)
 
 ## Install
 
-    $ git clone
+    $ git clone git@github.com:horsekitlin/FBBoard.git
 
     $ npm install
 
