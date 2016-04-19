@@ -22,6 +22,22 @@ export default StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#F5FCFF',
     },
+    message : {
+        margin : 5,
+        paddingTop : 5,
+        paddingBottom : 5,
+        borderBottomColor : "#CCC",
+        borderBottomWidth:1
+    },
+    message_logo : {
+        height : 30,
+        width : 30,
+        alignItems:'center',
+    },
+    message_img : {
+        height : 400,
+        width : 400,
+    },
     row : {
         marginTop : 10,
         flexDirection : 'row',
