@@ -22,6 +22,14 @@ export default StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#F5FCFF',
     },
+    row : {
+        marginTop : 10,
+        flexDirection : 'row',
+    },
+    column : {
+        flexDirection : 'column',
+        justifyContent: 'center',
+    },
     navbar : {
         marginTop : 20,
         height : 40,
@@ -37,5 +45,23 @@ export default StyleSheet.create({
         height : 40,
         width : width,
         backgroundColor : muted
+    },
+    primarytext : {
+        color : primary
+    },
+    lighttext : {
+        fontWeight : '200'
+    },
+    normaltext : {
+        fontWeight : "300"
+    },
+    boldtext : {
+        fontWeight : "500"
+    },
+    boldertext : {
+        fontWeight : "700"
+    },
+    mutedtext : {
+        color : muted
     },
 });

@@ -11,5 +11,7 @@ export const fields = [
     "message",
     "created_time",
     "link",
-    "picture"
+    "picture",
+    "story",
+    "full_picture"
 ];
