@@ -24,7 +24,7 @@ class fbboard extends Component {
     }
     componentDidMount(){
         let _this = this;
-        const url = `${graphURL}/${fansgroup}/feed?limit=${limit}&access_token=${access_token}&fileds=${fields.join(",")}`
+        const url = `${graphURL}/${fansgroup}/feed?limit=${limit}&access_token=${access_token}&fields=${fields.join(",")}`
         fetch(url)
         .then((resp) => {
             if (resp.status >= 400) {
