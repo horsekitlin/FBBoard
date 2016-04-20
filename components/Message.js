@@ -17,14 +17,14 @@ class Message extends Component{
             <View style={[styles.message]}>
                 <View style={[styles.row]}>
                     <View style={[styles.column], {flex : 1}}>
-                        <Image source={{uri : 'https://scontent-tpe1-1.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p160x160/11243710_377705219100874_7809988013920691796_n.png?oh=e09ddc9cd6a1ec0229d533dd8207e0bf&oe=57ADBCA2'}} style={[styles.message_logo]}/>
+                        <Image source={{uri : 'http://ppt.cc/xH07G'}} style={[styles.message_logo]}/>
                     </View>
                     <View style={[styles.column, {flex : 9}]}>
                         <View>
                             <Text style={[styles.primarytext, styles.boldertext]}> 電影法蘭克 </Text>
                         </View>
                         <View>
-                            <Text style={[styles.mutedtext, {fontSize : 10}]}>2015</Text>
+                            <Text style={[styles.mutedtext, {fontSize : 10}]}>{message.created_time}</Text>
                         </View>
                     </View>
                 </View>

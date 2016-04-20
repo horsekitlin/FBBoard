@@ -38,7 +38,6 @@ class fbboard extends Component {
         });
     }
     render() {
-        const { messages } = this.state;
         return (
             <View style={styles.container}>
                 <View style={styles.navbar}>

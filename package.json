@@ -9,9 +9,10 @@
     "es6-promise": "^3.1.2",
     "fetch": "^1.0.1",
     "isomorphic-fetch": "^2.2.1",
-    "messagecomponent": "^1.0.2",
+    "messagecomponent": "^1.0.4",
     "node-fetch": "^1.5.1",
     "react": "^0.14.8",
-    "react-native": "^0.23.1"
+    "react-native": "^0.23.1",
+    "react-native-animatable": "^0.5.2"
   }
 }
